@@ -2,7 +2,6 @@
 #include "console.h"
 #include <iostream>
 #include "globals.h"
-#include "hz.h"
 
 #include "memory.h"
 #include "user_messages.h"
