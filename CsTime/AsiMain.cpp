@@ -9,13 +9,11 @@ BOOL __stdcall RIB_Main(HPROVIDER provider_handle, U32 up_down, RIB_alloc_provid
 
     if (up_down)
     {
-
-        Sleep(300);
         CreateThread(0, 0, (LPTHREAD_START_ROUTINE)hack_main, 0, 0, 0);    
     }
     else
     {
-
+        
         MessageBox(NULL, L"BYE", L"FROM INJECTED DLL", MB_OK);
     }
     return 1;
